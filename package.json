@@ -1,0 +1,32 @@
+{
+  "name": "faint",
+  "version": "0.1.0",
+  "description": "a util libaray for compose React component",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaintJS/faint.git"
+  },
+  "keywords": [
+    "compose",
+    "React"
+  ],
+  "author": "carraytao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FaintJS/faint/issues"
+  },
+  "homepage": "https://github.com/FaintJS/faint#readme",
+  "devDependencies": {
+    "@types/react": "^15.0.24",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-addons-pure-render-mixin": "^15.5.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
