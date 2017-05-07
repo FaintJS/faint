@@ -1,6 +1,9 @@
 machine:
   node:
     version: 6.9.1
+dependencies:
+  override:
+    - yarn
 ## Customize test commands
 test:
   override:
