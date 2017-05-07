@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-import { componentName, canHaveRef, proxyInstanceMethods}  from '../utils'
+import { componentName, canHaveRef, proxyInstanceMethods } from '../utils'
 
 /**
  * type ChildOptionProps = {
@@ -97,7 +97,7 @@ function normalize (children) {
  * @param ChildComponent 
  * @param props 
  */
-function childComponent(ChildComponent, props) {
+function childComponent (ChildComponent, props) {
   if (!props || !Object.keys(props).length) {
     return ChildComponent
   }

@@ -38,7 +38,7 @@ export default (RenderedComponent, uncontrolledProps) => {
       this.setState({
         [name]: value
       })
-      let eventName = 'on' + upperFirstLetter(name) + 'Change'
+      let eventName = 'on' + capitalize(name) + 'Change'
       this.props[eventName] && this.props[eventName](value, ...args)
     }
 
